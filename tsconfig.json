@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext", "DOM"],
+		"noEmit": true,
+		"target": "ESNext",
+		"moduleResolution": "Node"
+	}
+}

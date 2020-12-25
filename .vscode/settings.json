@@ -1,0 +1,14 @@
+{
+	"runOnSave.commands": [
+		{
+			"command": "tsc --target ESNext --module ESNext --moduleResolution Node --allowSyntheticDefaultImports --sourceMap --lib esnext,dom ${file}",
+			"runningStatusMessage": "Compiling ${fileBasename}...",
+			"finishStatusMessage": "Compiled ${fileBasename}",
+			"globMatch": "**/*.ts"
+		}
+	],
+	"files.exclude": {
+		"**/*.js": true,
+		"**/*.js.map": true
+	}
+}
